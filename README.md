@@ -8,11 +8,14 @@ Results:
  ![alt tag](https://github.com/rohitash-chandra/MCMC_fnn_timeseries/blob/master/mcmcresults/begin.png)
  
 
- ![alt tag](https://github.com/rohitash-chandra/MCMC_fnn_timeseries/blob/master/mcmcresults/proposals.png) 
+ ![alt tag](https://github.com/rohitash-chandra/MCMC_fnn_timeseries/blob/master/mcmcresults/proposals.svg) 
  
 
- ![alt tag](https://github.com/rohitash-chandra/MCMC_fnn_timeseries/blob/master/mcmcresults/mcmcrestrain.png)
+ ![alt tag](https://github.com/rohitash-chandra/MCMC_fnn_timeseries/blob/master/mcmcresults/mcmcrestrain.svg)
  
  
- ![alt tag](https://github.com/rohitash-chandra/MCMC_fnn_timeseries/blob/master/mcmcresults/mcmcrestest.png)
+ ![alt tag](https://github.com/rohitash-chandra/MCMC_fnn_timeseries/blob/master/mcmcresults/mcmcrestest.svg)
+ 
+ 
+ ![alt tag](https://github.com/rohitash-chandra/MCMC_fnn_timeseries/blob/master/mcmcresults/w_pos.svg)
   
