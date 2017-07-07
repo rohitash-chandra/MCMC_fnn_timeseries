@@ -267,8 +267,7 @@ class MCMC:
 
 def main():
     outres = open('mcmcresults/resultspriors.txt', 'w')
-    for problem in xrange(2, 3):
-        # problem = 7 #  Lazer or Sunspot
+    for problem in xrange(2, 3): 
 
         hidden = 5
         input = 4  #
@@ -282,19 +281,7 @@ def main():
             testdata = np.loadtxt("Data_OneStepAhead/Sunspot/test.txt")  #
         if problem == 3:
             traindata = np.loadtxt("Data_OneStepAhead/Mackey/train.txt")
-            testdata = np.loadtxt("Data_OneStepAhead/Mackey/test.txt")  #
-        if problem == 4:
-            traindata = np.loadtxt("Data_OneStepAhead/Lorenz/train.txt")
-            testdata = np.loadtxt("Data_OneStepAhead/Lorenz/test.txt")  #
-        if problem == 5:
-            traindata = np.loadtxt("Data_OneStepAhead/Rossler/train.txt")
-            testdata = np.loadtxt("Data_OneStepAhead/Rossler/test.txt")  #
-        if problem == 6:
-            traindata = np.loadtxt("Data_OneStepAhead/Henon/train.txt")
-            testdata = np.loadtxt("Data_OneStepAhead/Henon/test.txt")  #
-        if problem == 7:
-            traindata = np.loadtxt("Data_OneStepAhead/ACFinance/train.txt")
-            testdata = np.loadtxt("Data_OneStepAhead/ACFinance/test.txt")  #
+            testdata = np.loadtxt("Data_OneStepAhead/Mackey/test.txt")  # 
 
         print(traindata)
 
